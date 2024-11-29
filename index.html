@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .image,
+      .price,
+      .details {
+        width: 250px;
+      }
+      .main {
+        width: 750px;
+      }
+      .b1 {
+        width: 15px;
+        height: 15px;
+      }
+      .sale {
+        top: -14px;
+        left: -40px;
+        width: 70px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="main mx-auto mt-5 border border-black border-4 position-relative"
+    >
+      <div class="sale position-absolute p-1 bg-danger mt-0 text-white">
+        SALE
+      </div>
+      <h2 class="bg-secondary-subtle text-center p-2 mb-0 fs-4 fw-bold">
+        CONVERSE CHUCK TAYLOR ALL STAR LOW TOP
+      </h2>
+      <div class="section d-flex gap-1">
+        <div class="image">
+          <img src="socks.jpg" class="img-fluid" />
+        </div>
+        <div class="price mt-3">
+          <div class="d-flex justify-content-between ms-4">
+            <p>$65.00</p>
+            <p>Free shipping</p>
+          </div>
+          <p class="ms-3">
+            Ready to dress up or down,these classic canvas chucks are an
+            everyday wardrobe staple.
+          </p>
+          <a class="text-decoration-none ms-3" href="">More information</a>
+          <div class="box d-flex gap-2 ms-2">
+            <div class="b1 bg-black"></div>
+            <div class="b1 bg-primary"></div>
+            <div class="b1 bg-danger"></div>
+            <div class="b1 bg-warning"></div>
+            <div class="b1 bg-success"></div>
+            <div class="b1 bg-warning-subtle"></div>
+          </div>
+        </div>
+        <div class="details mt-3">
+          <h6 class="ms-3">PRODUCT DETAILS</h6>
+          <ul>
+            <li>Lightweight,durable canvas sneaker</li>
+            <li>Lightly padded footbed for added comfort</li>
+            <li>Iconic Chuck Taylor ankle patch</li>
+          </ul>
+        </div>
+      </div>
+      <button class="btn btn-dark w-100 bg-black rounded-0">ADD TO CART</button>
+    </div>
+  </body>
+</html>
